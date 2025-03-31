@@ -1,0 +1,36 @@
+.downloadSection {
+    text-align: center;
+    max-width: 600px;
+    margin: 4rem auto 0 auto;
+  }
+  
+  .downloadTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .downloadText {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .downloadButtons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .storeButton {
+    display: inline-block;
+    transition: var(--transition);
+  }
+  
+  .storeButton:hover {
+    transform: translateY(-3px);
+  }
+  
+  .storeButton img {
+    height: 50px;
+  }
+  
